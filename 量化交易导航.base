@@ -1,0 +1,125 @@
+filters:
+  or:
+    - file.inFolder("wiki/量化交易")
+    - file.path == "wiki/综合分析/量化交易能力地图：从学习到实盘.md"
+    - file.path == "wiki/综合分析/量化回测常见幻觉清单.md"
+    - file.path == "wiki/综合分析/因子研究从IC到实盘的淘汰链.md"
+    - file.path == "wiki/综合分析/A股量化交易的本土摩擦与回测失真清单.md"
+    - file.path == "wiki/综合分析/A股量化策略上线前检查表.md"
+    - file.path == "wiki/资料摘要/资料摘要：打开量化投资的黑箱.md"
+    - file.path == "wiki/资料摘要/资料摘要：清华大学量化交易学习笔记.md"
+    - file.path == "wiki/资料摘要/资料摘要：量化工程师实战录.md"
+    - file.path == "wiki/资料摘要/资料摘要：量化必备：概率论与统计学基础.md"
+    - file.path == "wiki/资料摘要/资料摘要：量化必备：100个金融术语.md"
+    - file.path == "wiki/资料摘要/资料摘要：财务报表分析.md"
+    - file.path == "wiki/概念/阿尔法模型.md"
+    - file.path == "wiki/概念/风险模型.md"
+    - file.path == "wiki/概念/交易成本模型.md"
+    - file.path == "wiki/概念/投资组合构建.md"
+    - file.path == "wiki/概念/执行模型.md"
+    - file.path == "wiki/概念/量化研究.md"
+    - file.path == "wiki/概念/高频交易（HFT）.md"
+    - file.path == "wiki/概念/回测.md"
+    - file.path == "wiki/概念/样本外测试.md"
+    - file.path == "wiki/概念/前视偏差.md"
+    - file.path == "wiki/概念/幸存者偏差.md"
+    - file.path == "wiki/概念/多因子策略.md"
+    - file.path == "wiki/概念/统计套利.md"
+    - file.path == "wiki/概念/动量策略.md"
+    - file.path == "wiki/概念/均值回归.md"
+    - file.path == "wiki/概念/配对交易.md"
+    - file.path == "wiki/概念/凯利准则.md"
+    - file.path == "wiki/概念/IC（信息系数）.md"
+    - file.path == "wiki/概念/IR（信息比率）.md"
+    - file.path == "wiki/概念/行业中性化.md"
+    - file.path == "wiki/概念/Z-Score.md"
+    - file.path == "wiki/概念/市场中性策略.md"
+    - file.path == "wiki/概念/Sharpe Ratio.md"
+    - file.path == "wiki/概念/换手率.md"
+    - file.path == "wiki/概念/跟踪误差.md"
+    - file.path == "wiki/概念/Alpha.md"
+    - file.path == "wiki/概念/Beta.md"
+    - file.path == "wiki/概念/最大回撤.md"
+    - file.path == "wiki/概念/波动率.md"
+    - file.path == "wiki/概念/VaR.md"
+    - file.path == "wiki/概念/CAPM.md"
+formulas:
+  page_type: type
+  zone: if(file.inFolder("wiki/量化交易"), "主题", if(file.inFolder("wiki/综合分析"), "综合分析", if(file.inFolder("wiki/资料摘要"), "资料摘要", if(file.inFolder("wiki/概念"), "概念", "其他"))))
+  practical: if(file.name.includes("检查表") || file.name.includes("A股") || file.name.includes("幻觉清单") || file.name.includes("淘汰链"), "高", if(file.inFolder("wiki/综合分析"), "中", if(file.inFolder("wiki/概念"), "中", "低")))
+  lane: if(file.name.includes("回测") || file.name.includes("样本外") || file.name.includes("偏差") || file.name.includes("IC") || file.name.includes("IR") || file.name.includes("中性化") || file.name.includes("Z-Score") || file.name.includes("Sharpe") || file.name.includes("换手率") || file.name.includes("跟踪误差") || file.name.includes("Alpha") || file.name.includes("Beta") || file.name.includes("CAPM") || file.name.includes("VaR") || file.name.includes("最大回撤") || file.name.includes("波动率"), "研究/评估", if(file.name.includes("动量") || file.name.includes("均值回归") || file.name.includes("统计套利") || file.name.includes("配对交易") || file.name.includes("市场中性") || file.name.includes("凯利"), "策略/风控", if(file.inFolder("wiki/资料摘要"), "资料来源", if(file.inFolder("wiki/综合分析"), "综合分析", "主题导航"))))
+properties:
+  title:
+    displayName: 标题
+  type:
+    displayName: 类型
+  tags:
+    displayName: 标签
+  updated:
+    displayName: 更新日期
+  file.folder:
+    displayName: 文件夹
+  formula.zone:
+    displayName: 分组
+  formula.practical:
+    displayName: 实盘相关度
+  formula.lane:
+    displayName: 导航分区
+views:
+  - type: table
+    name: 量化交易总览
+    order:
+      - title
+      - formula.zone
+      - formula.lane
+      - type
+      - formula.practical
+      - updated
+      - file.folder
+      - tags
+  - type: table
+    name: 研究优先
+    filters:
+      or:
+        - formula.lane == "研究/评估"
+        - file.name == "量化回测常见幻觉清单"
+        - file.name == "因子研究从IC到实盘的淘汰链"
+    order:
+      - title
+      - formula.lane
+      - type
+      - formula.practical
+      - updated
+  - type: table
+    name: 概念速查
+    filters:
+      and:
+        - formula.zone == "概念"
+    order:
+      - title
+      - formula.lane
+      - formula.practical
+      - updated
+  - type: table
+    name: 资料摘要
+    filters:
+      and:
+        - formula.zone == "资料摘要"
+    order:
+      - title
+      - formula.practical
+      - updated
+      - file.folder
+  - type: table
+    name: 实盘优先
+    filters:
+      or:
+        - formula.practical == "高"
+        - file.name == "量化交易导航"
+        - file.name == "量化交易"
+        - file.name == "量化交易学习路径"
+    order:
+      - title
+      - formula.practical
+      - formula.zone
+      - updated

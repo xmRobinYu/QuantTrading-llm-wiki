@@ -1,0 +1,510 @@
+{
+  "nodes": [
+    {
+      "id": "grp-root",
+      "type": "group",
+      "x": -1180,
+      "y": -760,
+      "width": 2460,
+      "height": 1680,
+      "label": "量化研究导航",
+      "color": "3"
+    },
+    {
+      "id": "grp-top",
+      "type": "group",
+      "x": -980,
+      "y": -640,
+      "width": 2060,
+      "height": 280,
+      "label": "研究主入口",
+      "color": "4"
+    },
+    {
+      "id": "grp-left",
+      "type": "group",
+      "x": -980,
+      "y": -300,
+      "width": 620,
+      "height": 980,
+      "label": "回测与防错",
+      "color": "1"
+    },
+    {
+      "id": "grp-mid",
+      "type": "group",
+      "x": -300,
+      "y": -300,
+      "width": 700,
+      "height": 980,
+      "label": "因子研究与指标",
+      "color": "3"
+    },
+    {
+      "id": "grp-right",
+      "type": "group",
+      "x": 460,
+      "y": -300,
+      "width": 620,
+      "height": 980,
+      "label": "归因、风控与落地",
+      "color": "2"
+    },
+    {
+      "id": "nav-main",
+      "type": "file",
+      "x": -170,
+      "y": -560,
+      "width": 340,
+      "height": 180,
+      "file": "wiki/量化交易/量化研究导航.md",
+      "color": "4"
+    },
+    {
+      "id": "research-core",
+      "type": "file",
+      "x": -560,
+      "y": -220,
+      "width": 280,
+      "height": 150,
+      "file": "wiki/概念/量化研究.md",
+      "color": "6"
+    },
+    {
+      "id": "backtest",
+      "type": "file",
+      "x": -900,
+      "y": -60,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/回测.md",
+      "color": "1"
+    },
+    {
+      "id": "oos",
+      "type": "file",
+      "x": -600,
+      "y": -60,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/样本外测试.md",
+      "color": "1"
+    },
+    {
+      "id": "lookahead",
+      "type": "file",
+      "x": -900,
+      "y": 140,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/前视偏差.md",
+      "color": "1"
+    },
+    {
+      "id": "survivor",
+      "type": "file",
+      "x": -600,
+      "y": 140,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/幸存者偏差.md",
+      "color": "1"
+    },
+    {
+      "id": "illusion",
+      "type": "file",
+      "x": -760,
+      "y": 360,
+      "width": 320,
+      "height": 160,
+      "file": "wiki/综合分析/量化回测常见幻觉清单.md",
+      "color": "1"
+    },
+    {
+      "id": "factor",
+      "type": "file",
+      "x": -220,
+      "y": -220,
+      "width": 280,
+      "height": 150,
+      "file": "wiki/概念/多因子策略.md",
+      "color": "3"
+    },
+    {
+      "id": "ic",
+      "type": "file",
+      "x": -220,
+      "y": -20,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/概念/IC（信息系数）.md",
+      "color": "3"
+    },
+    {
+      "id": "ir",
+      "type": "file",
+      "x": 100,
+      "y": -20,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/概念/IR（信息比率）.md",
+      "color": "3"
+    },
+    {
+      "id": "neutral",
+      "type": "file",
+      "x": -220,
+      "y": 180,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/概念/行业中性化.md",
+      "color": "3"
+    },
+    {
+      "id": "zscore",
+      "type": "file",
+      "x": 100,
+      "y": 180,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/Z-Score.md",
+      "color": "3"
+    },
+    {
+      "id": "turnover",
+      "type": "file",
+      "x": -220,
+      "y": 380,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/换手率.md",
+      "color": "2"
+    },
+    {
+      "id": "factor-synth",
+      "type": "file",
+      "x": 100,
+      "y": 380,
+      "width": 320,
+      "height": 160,
+      "file": "wiki/综合分析/因子研究从IC到实盘的淘汰链.md",
+      "color": "3"
+    },
+    {
+      "id": "alpha",
+      "type": "file",
+      "x": 540,
+      "y": -220,
+      "width": 240,
+      "height": 140,
+      "file": "wiki/概念/Alpha.md",
+      "color": "6"
+    },
+    {
+      "id": "beta",
+      "type": "file",
+      "x": 820,
+      "y": -220,
+      "width": 240,
+      "height": 140,
+      "file": "wiki/概念/Beta.md",
+      "color": "6"
+    },
+    {
+      "id": "capm",
+      "type": "file",
+      "x": 680,
+      "y": -20,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/CAPM.md",
+      "color": "6"
+    },
+    {
+      "id": "sharpe",
+      "type": "file",
+      "x": 540,
+      "y": 180,
+      "width": 260,
+      "height": 140,
+      "file": "wiki/概念/Sharpe Ratio.md",
+      "color": "5"
+    },
+    {
+      "id": "drawdown",
+      "type": "file",
+      "x": 840,
+      "y": 180,
+      "width": 240,
+      "height": 140,
+      "file": "wiki/概念/最大回撤.md",
+      "color": "5"
+    },
+    {
+      "id": "vol",
+      "type": "file",
+      "x": 540,
+      "y": 380,
+      "width": 240,
+      "height": 140,
+      "file": "wiki/概念/波动率.md",
+      "color": "5"
+    },
+    {
+      "id": "var",
+      "type": "file",
+      "x": 840,
+      "y": 380,
+      "width": 240,
+      "height": 140,
+      "file": "wiki/概念/VaR.md",
+      "color": "5"
+    },
+    {
+      "id": "ashare",
+      "type": "file",
+      "x": 680,
+      "y": 600,
+      "width": 340,
+      "height": 160,
+      "file": "wiki/综合分析/A股量化策略上线前检查表.md",
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "nav-main",
+      "fromSide": "bottom",
+      "toNode": "research-core",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e2",
+      "fromNode": "research-core",
+      "fromSide": "bottom",
+      "toNode": "backtest",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e3",
+      "fromNode": "research-core",
+      "fromSide": "bottom",
+      "toNode": "factor",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e4",
+      "fromNode": "research-core",
+      "fromSide": "bottom",
+      "toNode": "alpha",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e5",
+      "fromNode": "backtest",
+      "fromSide": "right",
+      "toNode": "oos",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e6",
+      "fromNode": "oos",
+      "fromSide": "bottom",
+      "toNode": "lookahead",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e7",
+      "fromNode": "oos",
+      "fromSide": "bottom",
+      "toNode": "survivor",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e8",
+      "fromNode": "lookahead",
+      "fromSide": "bottom",
+      "toNode": "illusion",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e9",
+      "fromNode": "survivor",
+      "fromSide": "bottom",
+      "toNode": "illusion",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e10",
+      "fromNode": "factor",
+      "fromSide": "bottom",
+      "toNode": "ic",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e11",
+      "fromNode": "factor",
+      "fromSide": "bottom",
+      "toNode": "ir",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e12",
+      "fromNode": "ic",
+      "fromSide": "bottom",
+      "toNode": "neutral",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e13",
+      "fromNode": "ir",
+      "fromSide": "bottom",
+      "toNode": "zscore",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e14",
+      "fromNode": "neutral",
+      "fromSide": "bottom",
+      "toNode": "turnover",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e15",
+      "fromNode": "zscore",
+      "fromSide": "bottom",
+      "toNode": "factor-synth",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e16",
+      "fromNode": "turnover",
+      "fromSide": "right",
+      "toNode": "factor-synth",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e17",
+      "fromNode": "alpha",
+      "fromSide": "right",
+      "toNode": "beta",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e18",
+      "fromNode": "alpha",
+      "fromSide": "bottom",
+      "toNode": "capm",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e19",
+      "fromNode": "capm",
+      "fromSide": "bottom",
+      "toNode": "sharpe",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "e20",
+      "fromNode": "capm",
+      "fromSide": "bottom",
+      "toNode": "drawdown",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "e21",
+      "fromNode": "sharpe",
+      "fromSide": "bottom",
+      "toNode": "vol",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "e22",
+      "fromNode": "drawdown",
+      "fromSide": "bottom",
+      "toNode": "var",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "e23",
+      "fromNode": "vol",
+      "fromSide": "bottom",
+      "toNode": "ashare",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e24",
+      "fromNode": "var",
+      "fromSide": "bottom",
+      "toNode": "ashare",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e25",
+      "fromNode": "factor-synth",
+      "fromSide": "right",
+      "toNode": "ashare",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e26",
+      "fromNode": "illusion",
+      "fromSide": "right",
+      "toNode": "ashare",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "1"
+    }
+  ]
+}
