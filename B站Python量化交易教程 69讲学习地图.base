@@ -1,0 +1,112 @@
+filters:
+  or:
+    - file.path == "wiki/量化交易/B站Python量化交易教程（BV1D52CBREpX）.md"
+    - file.path == "wiki/量化交易/B站Python量化交易教程 69讲学习地图.md"
+    - file.path == "wiki/综合分析/B站量化课最值得保留的三条线.md"
+    - file.path == "wiki/资料摘要/资料摘要：B站Python量化交易教程（BV1D52CBREpX）.md"
+    - file.inFolder("wiki/量化交易/B站Python量化交易教程（BV1D52CBREpX）")
+    - file.inFolder("wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）")
+    - file.path == "wiki/概念/量化研究.md"
+    - file.path == "wiki/概念/回测.md"
+    - file.path == "wiki/概念/样本外测试.md"
+    - file.path == "wiki/概念/前视偏差.md"
+    - file.path == "wiki/概念/幸存者偏差.md"
+    - file.path == "wiki/概念/Alpha.md"
+    - file.path == "wiki/概念/Beta.md"
+    - file.path == "wiki/概念/Sharpe Ratio.md"
+    - file.path == "wiki/概念/IR（信息比率）.md"
+    - file.path == "wiki/概念/波动率.md"
+    - file.path == "wiki/概念/最大回撤.md"
+    - file.path == "wiki/概念/多因子策略.md"
+    - file.path == "wiki/概念/CAPM.md"
+    - file.path == "wiki/概念/动量策略.md"
+    - file.path == "wiki/概念/均值回归.md"
+
+formulas:
+  page_type: type
+  zone: if(file.inFolder("wiki/量化交易/B站Python量化交易教程（BV1D52CBREpX）"), "专题线", if(file.inFolder("wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）"), "逐讲摘要", if(file.inFolder("wiki/概念"), "概念", if(file.inFolder("wiki/综合分析"), "综合分析", "课程入口"))))
+  module: if(file.name.includes("平台") || file.name.includes("脚手架") || file.name.includes("Context") || file.name.includes("Portfolio") || file.name.includes("Order") || file.name.includes("Trade"), "平台脚手架", if(file.name.includes("回测") || file.name.includes("Alpha") || file.name.includes("Beta") || file.name.includes("Sharpe") || file.name.includes("信息比率") || file.name.includes("波动率") || file.name.includes("回撤"), "回测与评价", if(file.name.includes("因子") || file.name.includes("选股") || file.name.includes("价值类") || file.name.includes("质量类") || file.name.includes("CAPM"), "因子研究", if(file.name.includes("策略") || file.name.includes("均线") || file.name.includes("KDJ") || file.name.includes("布林") || file.name.includes("轮动") || file.name.includes("逆三因子"), "策略案例", "课程导航"))))
+  priority: if(file.name.includes("学习地图") || file.name.includes("最值得保留") || file.name == "B站Python量化交易教程（BV1D52CBREpX）", "高", if(file.inFolder("wiki/概念"), "中", "中"))
+
+properties:
+  title:
+    displayName: 标题
+  type:
+    displayName: 类型
+  tags:
+    displayName: 标签
+  updated:
+    displayName: 更新日期
+  file.folder:
+    displayName: 文件夹
+  formula.zone:
+    displayName: 分组
+  formula.module:
+    displayName: 模块
+  formula.priority:
+    displayName: 优先级
+
+views:
+  - type: table
+    name: 课程总览
+    order:
+      - title
+      - formula.zone
+      - formula.module
+      - type
+      - formula.priority
+      - updated
+      - file.folder
+  - type: table
+    name: 平台脚手架
+    filters:
+      or:
+        - formula.module == "平台脚手架"
+        - file.name == "B站量化课：平台脚手架与聚宽对象线"
+    order:
+      - title
+      - formula.zone
+      - type
+      - updated
+  - type: table
+    name: 回测评价
+    filters:
+      or:
+        - formula.module == "回测与评价"
+        - file.name == "B站量化课：回测与风险指标线"
+    order:
+      - title
+      - formula.zone
+      - type
+      - updated
+  - type: table
+    name: 因子研究
+    filters:
+      or:
+        - formula.module == "因子研究"
+        - file.name == "B站量化课：因子研究与选股线"
+    order:
+      - title
+      - formula.zone
+      - type
+      - updated
+  - type: table
+    name: 策略案例
+    filters:
+      or:
+        - formula.module == "策略案例"
+        - file.name == "B站量化课：策略案例线"
+    order:
+      - title
+      - formula.zone
+      - type
+      - updated
+  - type: table
+    name: 逐讲摘要
+    filters:
+      and:
+        - formula.zone == "逐讲摘要"
+    order:
+      - title
+      - formula.module
+      - updated
