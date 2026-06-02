@@ -5,11 +5,12 @@ status: stable
 tags: [概念, 基础, 量化交易, 研究]
 aliases: [夏普比率, Sharpe]
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-02
 sources:
   - "[[资料摘要：清华大学量化交易学习笔记]]"
   - "[[资料摘要：量化必备：概率论与统计学基础]]"
   - "[[资料摘要：打开量化投资的黑箱]]"
+  - "[[资料摘要：B站量化课 49 阿尔法、贝塔与夏普]]"
 domain: "量化交易"
 confidence: medium
 summary: "Sharpe Ratio 用于衡量每承担一单位总波动风险，策略获得了多少超额收益。"

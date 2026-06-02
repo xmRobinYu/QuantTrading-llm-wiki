@@ -5,10 +5,11 @@ status: stable
 tags: [概念, 基础, 量化交易, 研究]
 aliases: [IR, Information Ratio]
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-02
 sources:
   - "[[资料摘要：清华大学量化交易学习笔记]]"
   - "[[资料摘要：打开量化投资的黑箱]]"
+  - "[[资料摘要：B站量化课 50 索提诺、信息比率与波动率]]"
 domain: "量化交易"
 confidence: medium
 summary: "IR 是单位主动风险对应的超额收益，用来衡量一个策略或因子收益是否稳定且值得承担。"

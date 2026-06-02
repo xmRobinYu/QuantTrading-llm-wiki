@@ -5,10 +5,12 @@ status: stable
 tags: [概念, 基础, 量化交易, 投资]
 aliases: [Capital Asset Pricing Model, 资本资产定价模型]
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-02
 sources:
   - "[[资料摘要：量化必备：100个金融术语]]"
   - "[[资料摘要：量化必备：概率论与统计学基础]]"
+  - "[[资料摘要：B站量化课 68 逆三因子策略（上）]]"
+  - "[[资料摘要：B站量化课 69 逆三因子策略（下）]]"
 domain: "量化交易"
 confidence: medium
 summary: "CAPM 是用市场 Beta 来解释资产预期收益的经典线性资产定价模型。"
