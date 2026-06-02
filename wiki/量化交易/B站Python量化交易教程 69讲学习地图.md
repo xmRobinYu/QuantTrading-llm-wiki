@@ -219,6 +219,7 @@ flowchart TD
 ## 相关
 
 - [[B站Python量化交易教程（BV1D52CBREpX）]]
+- [[B站Python量化交易教程 69讲学习地图.canvas]]
 - [[资料摘要：B站Python量化交易教程（BV1D52CBREpX）]]
 - [[量化交易学习路径]]
 - [[量化研究导航]]

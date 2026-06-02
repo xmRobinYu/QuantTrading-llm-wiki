@@ -1,0 +1,504 @@
+{
+  "nodes": [
+    {
+      "id": "grp_root",
+      "type": "group",
+      "x": -1260,
+      "y": -860,
+      "width": 2620,
+      "height": 1900,
+      "label": "B站Python量化交易教程 69讲学习地图",
+      "color": "5"
+    },
+    {
+      "id": "grp_top",
+      "type": "group",
+      "x": -1080,
+      "y": -760,
+      "width": 2260,
+      "height": 300,
+      "label": "主入口",
+      "color": "4"
+    },
+    {
+      "id": "grp_left",
+      "type": "group",
+      "x": -1080,
+      "y": -380,
+      "width": 760,
+      "height": 900,
+      "label": "入门与平台",
+      "color": "6"
+    },
+    {
+      "id": "grp_mid",
+      "type": "group",
+      "x": -260,
+      "y": -380,
+      "width": 760,
+      "height": 900,
+      "label": "研究与评估",
+      "color": "3"
+    },
+    {
+      "id": "grp_right",
+      "type": "group",
+      "x": 560,
+      "y": -380,
+      "width": 620,
+      "height": 900,
+      "label": "策略案例",
+      "color": "2"
+    },
+    {
+      "id": "grp_bottom",
+      "type": "group",
+      "x": -1080,
+      "y": 580,
+      "width": 2260,
+      "height": 340,
+      "label": "知识库锚点",
+      "color": "1"
+    },
+    {
+      "id": "course_main",
+      "type": "file",
+      "x": -930,
+      "y": -680,
+      "width": 320,
+      "height": 170,
+      "file": "wiki/量化交易/B站Python量化交易教程（BV1D52CBREpX）.md",
+      "color": "4"
+    },
+    {
+      "id": "course_source",
+      "type": "file",
+      "x": -540,
+      "y": -680,
+      "width": 320,
+      "height": 170,
+      "file": "wiki/资料摘要/资料摘要：B站Python量化交易教程（BV1D52CBREpX）.md",
+      "color": "5"
+    },
+    {
+      "id": "course_map",
+      "type": "file",
+      "x": -150,
+      "y": -680,
+      "width": 320,
+      "height": 170,
+      "file": "wiki/量化交易/B站Python量化交易教程 69讲学习地图.md",
+      "color": "4"
+    },
+    {
+      "id": "course_synth",
+      "type": "file",
+      "x": 240,
+      "y": -680,
+      "width": 340,
+      "height": 170,
+      "file": "wiki/综合分析/B站量化课最值得保留的三条线.md",
+      "color": "2"
+    },
+    {
+      "id": "course_raw",
+      "type": "text",
+      "x": 670,
+      "y": -690,
+      "width": 380,
+      "height": 150,
+      "text": "raw 层资产\n69 讲逐讲字幕\n69 讲合并版原文\n课程总览",
+      "color": "3"
+    },
+    {
+      "id": "l_mod1",
+      "type": "text",
+      "x": -980,
+      "y": -280,
+      "width": 260,
+      "height": 140,
+      "text": "01-07 导学与量化基础\n课程导学\n量化基础\n开发流程\n交易产品 / 盈利模式 / 策略信号",
+      "color": "6"
+    },
+    {
+      "id": "l_mod2",
+      "type": "text",
+      "x": -980,
+      "y": -70,
+      "width": 260,
+      "height": 140,
+      "text": "08-15 股票与交易维度\n股票概念\n行业分类\n影响股价因素\n量化平台",
+      "color": "6"
+    },
+    {
+      "id": "l_mod3",
+      "type": "text",
+      "x": -980,
+      "y": 140,
+      "width": 260,
+      "height": 140,
+      "text": "16-21 Python工具实战\nNumPy\npandas\nMatplotlib\nK线 / MACD / KDJ",
+      "color": "6"
+    },
+    {
+      "id": "l_mod4",
+      "type": "text",
+      "x": -980,
+      "y": 350,
+      "width": 260,
+      "height": 140,
+      "text": "22-32 策略脚手架与数据获取\n平台对象\n函数框架\n财务 / 行情 / 龙虎榜数据",
+      "color": "6"
+    },
+    {
+      "id": "l_file1",
+      "type": "file",
+      "x": -650,
+      "y": -250,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 01 课程导学.md",
+      "color": "4"
+    },
+    {
+      "id": "l_file2",
+      "type": "file",
+      "x": -650,
+      "y": -40,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 15 量化交易平台.md",
+      "color": "4"
+    },
+    {
+      "id": "l_file3",
+      "type": "file",
+      "x": -650,
+      "y": 170,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 19 Pandas 实现 K 线图.md",
+      "color": "5"
+    },
+    {
+      "id": "l_file4",
+      "type": "file",
+      "x": -650,
+      "y": 380,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 22 简易策略框架.md",
+      "color": "2"
+    },
+    {
+      "id": "m_mod1",
+      "type": "text",
+      "x": -160,
+      "y": -280,
+      "width": 260,
+      "height": 140,
+      "text": "33-38 基本面与选股\n营收 / 利润 / 规模 / 价值 / 质量因子",
+      "color": "3"
+    },
+    {
+      "id": "m_mod2",
+      "type": "text",
+      "x": -160,
+      "y": -70,
+      "width": 260,
+      "height": 140,
+      "text": "39-46 择时与技术指标\nMACD / RSI / WR / MA / 布林带 / OBV",
+      "color": "3"
+    },
+    {
+      "id": "m_mod3",
+      "type": "text",
+      "x": -160,
+      "y": 140,
+      "width": 260,
+      "height": 140,
+      "text": "47-51 回测与风险指标\n回测流程\nAlpha / Beta / Sharpe\nSortino / IR / 波动率 / 回撤",
+      "color": "3"
+    },
+    {
+      "id": "m_mod4",
+      "type": "text",
+      "x": -160,
+      "y": 350,
+      "width": 260,
+      "height": 140,
+      "text": "52-55 因子分析\n因子概述\n自定义因子\n结果解读\nAlpha013",
+      "color": "3"
+    },
+    {
+      "id": "m_file1",
+      "type": "file",
+      "x": 170,
+      "y": -250,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 33 量化选股概览.md",
+      "color": "3"
+    },
+    {
+      "id": "m_file2",
+      "type": "file",
+      "x": 170,
+      "y": -40,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 39 量化择时基本概念.md",
+      "color": "3"
+    },
+    {
+      "id": "m_file3",
+      "type": "file",
+      "x": 170,
+      "y": 170,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 47 回测流程与平台机制.md",
+      "color": "1"
+    },
+    {
+      "id": "m_file4",
+      "type": "file",
+      "x": 170,
+      "y": 380,
+      "width": 280,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 52 因子分析概述.md",
+      "color": "3"
+    },
+    {
+      "id": "r_mod1",
+      "type": "text",
+      "x": 660,
+      "y": -260,
+      "width": 220,
+      "height": 140,
+      "text": "56-61 策略模板\n双均线\nKDJ\nMA-RSI\n能量型指标\n布林带",
+      "color": "2"
+    },
+    {
+      "id": "r_mod2",
+      "type": "text",
+      "x": 660,
+      "y": -40,
+      "width": 220,
+      "height": 140,
+      "text": "62-67 主题 / 风格策略\n新能源轮动\n低估值\n大小盘轮动\n补遗位点",
+      "color": "2"
+    },
+    {
+      "id": "r_mod3",
+      "type": "text",
+      "x": 660,
+      "y": 180,
+      "width": 220,
+      "height": 140,
+      "text": "68-69 因子定价策略\n逆三因子\nFama-French 视角",
+      "color": "2"
+    },
+    {
+      "id": "r_file1",
+      "type": "file",
+      "x": 920,
+      "y": -230,
+      "width": 220,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 56 双均线策略.md",
+      "color": "2"
+    },
+    {
+      "id": "r_file2",
+      "type": "file",
+      "x": 920,
+      "y": -10,
+      "width": 220,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 62 新能源股票轮动策略.md",
+      "color": "2"
+    },
+    {
+      "id": "r_file3",
+      "type": "file",
+      "x": 920,
+      "y": 210,
+      "width": 220,
+      "height": 140,
+      "file": "wiki/资料摘要/B站Python量化交易教程（BV1D52CBREpX）/资料摘要：B站量化课 68 逆三因子策略（上）.md",
+      "color": "2"
+    },
+    {
+      "id": "b_course",
+      "type": "file",
+      "x": -970,
+      "y": 670,
+      "width": 320,
+      "height": 150,
+      "file": "wiki/量化交易/B站Python量化交易教程（BV1D52CBREpX）.md",
+      "color": "4"
+    },
+    {
+      "id": "b_trade",
+      "type": "file",
+      "x": -570,
+      "y": 670,
+      "width": 280,
+      "height": 150,
+      "file": "wiki/量化交易/量化交易.md",
+      "color": "6"
+    },
+    {
+      "id": "b_research",
+      "type": "file",
+      "x": -230,
+      "y": 670,
+      "width": 280,
+      "height": 150,
+      "file": "wiki/量化交易/量化研究导航.md",
+      "color": "3"
+    },
+    {
+      "id": "b_synth",
+      "type": "file",
+      "x": 110,
+      "y": 670,
+      "width": 320,
+      "height": 150,
+      "file": "wiki/综合分析/B站量化课最值得保留的三条线.md",
+      "color": "2"
+    },
+    {
+      "id": "b_check",
+      "type": "file",
+      "x": 490,
+      "y": 670,
+      "width": 320,
+      "height": 150,
+      "file": "wiki/综合分析/A股量化策略上线前检查表.md",
+      "color": "1"
+    },
+    {
+      "id": "b_factor",
+      "type": "file",
+      "x": 870,
+      "y": 670,
+      "width": 240,
+      "height": 150,
+      "file": "wiki/概念/多因子策略.md",
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "course_main",
+      "fromSide": "bottom",
+      "toNode": "course_map",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "e2",
+      "fromNode": "course_main",
+      "fromSide": "bottom",
+      "toNode": "course_synth",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e3",
+      "fromNode": "course_source",
+      "fromSide": "bottom",
+      "toNode": "course_map",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "5"
+    },
+    {
+      "id": "e4",
+      "fromNode": "course_map",
+      "fromSide": "bottom",
+      "toNode": "l_file1",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e5",
+      "fromNode": "course_map",
+      "fromSide": "bottom",
+      "toNode": "m_file3",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "1"
+    },
+    {
+      "id": "e6",
+      "fromNode": "course_map",
+      "fromSide": "bottom",
+      "toNode": "r_file3",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e7",
+      "fromNode": "l_file4",
+      "fromSide": "bottom",
+      "toNode": "b_course",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "e8",
+      "fromNode": "m_file3",
+      "fromSide": "bottom",
+      "toNode": "b_research",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e9",
+      "fromNode": "m_file4",
+      "fromSide": "bottom",
+      "toNode": "b_factor",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "3"
+    },
+    {
+      "id": "e10",
+      "fromNode": "r_file2",
+      "fromSide": "bottom",
+      "toNode": "b_trade",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "6"
+    },
+    {
+      "id": "e11",
+      "fromNode": "r_file3",
+      "fromSide": "bottom",
+      "toNode": "b_synth",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "2"
+    },
+    {
+      "id": "e12",
+      "fromNode": "b_research",
+      "fromSide": "right",
+      "toNode": "b_check",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "1"
+    }
+  ]
+}
